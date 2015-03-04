@@ -33,6 +33,11 @@
     [self setupTransporter];
 }
 
+- (void)willActivate
+{
+    [self updateNearableZoneImage:nil];
+}
+
 #pragma mark - ESTNotificationTransporter Methods
 
 - (void)setupTransporter
@@ -104,9 +109,10 @@
 {
     if (!zone)
     {
+        [self.warningLabel setHidden:NO];
         return;
     }
-    
+    [self.warningLabel setHidden:YES];
     [self.warningLabel setHidden:YES];
     [self.payButton setHidden:YES];
     [self.titleZone setHidden:NO];

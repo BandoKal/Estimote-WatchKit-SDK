@@ -12,7 +12,7 @@
                     <items>
                         <group width="1" widthAdjustment="1" height="1" heightAdjustment="1" alignment="left" verticalAlignment="center" contentMode="scaleAspectFill" layout="vertical" id="snc-N3-3jJ">
                             <items>
-                                <label alignment="center" verticalAlignment="center" hidden="YES" text="Use Examples iOS app to simulate nearable zone" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.5" id="fId-8G-EbA" userLabel="warning Label"/>
+                                <label alignment="center" verticalAlignment="center" hidden="YES" text="Use SNEAKER SEEKER iOS app to simulate nearable zone" textAlignment="center" numberOfLines="0" minimumScaleFactor="0.5" id="fId-8G-EbA" userLabel="warning Label"/>
                                 <label alignment="center" verticalAlignment="bottom" hidden="YES" text="description" textAlignment="center" numberOfLines="0" id="wWM-hj-i0y">
                                     <fontDescription key="font" type="system" pointSize="11"/>
                                 </label>
