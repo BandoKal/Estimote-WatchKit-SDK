@@ -2,6 +2,16 @@
 
 Estimote WatchKit SDK is a set of tools and examples to make building Apple Watch apps powered by beacons and nearables quick and easy.
 
+**Table of Contents**
+
+- [Estimote WatchKit SDK](#)
+	- [What's included?](#)
+		- [ESTNotificationTransporter](#)
+		- [Nearables Simulator](#)
+	- [How to get started?](#)
+	- [Coming next...](#)
+	- [Let us know your thoughts](#)
+
 ## What's included?
 
 First, there's a **special build of the [Estimote SDK 3.0 beta](https://github.com/Estimote/iOS-SDK/tree/3.0.0-beta)** which adds:
