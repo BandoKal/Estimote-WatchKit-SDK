@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		951902D01AA4AD3800929BB1 /* PushNotificationPayload.apns in Resources */ = {isa = PBXBuildFile; fileRef = 951902CF1AA4AD3800929BB1 /* PushNotificationPayload.apns */; };
+		A139100D1AA7623100C33F49 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A139100C1AA7623100C33F49 /* EstimoteSDK.framework */; };
+		A139100E1AA7623100C33F49 /* EstimoteSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A139100C1AA7623100C33F49 /* EstimoteSDK.framework */; };
+		A17399861A9DDFC5004CD51E /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17399851A9DDFC5004CD51E /* CoreBluetooth.framework */; };
+		A17399891A9DDFE4004CD51E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17399881A9DDFE4004CD51E /* CoreLocation.framework */; };
+		A173998B1A9DE014004CD51E /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173998A1A9DE014004CD51E /* SystemConfiguration.framework */; };
+		A1C4B8101A93717C00AE302B /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1C4B80F1A93717C00AE302B /* InterfaceController.m */; };
+		A1C4B8121A93717C00AE302B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4B8111A93717C00AE302B /* Images.xcassets */; };
+		A1C4B8161A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = A1C4B8151A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app */; };
+		A1C4B81E1A93717C00AE302B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1C4B81C1A93717C00AE302B /* Interface.storyboard */; };
+		A1C4B8201A93717C00AE302B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1C4B81F1A93717C00AE302B /* Images.xcassets */; };
+		A1C4B8231A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1C4B80A1A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1E1B68A1A9F36B300264771 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17399851A9DDFC5004CD51E /* CoreBluetooth.framework */; };
+		A1E1B68B1A9F36BA00264771 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A17399881A9DDFE4004CD51E /* CoreLocation.framework */; };
+		A1E1B68C1A9F36C800264771 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A173998A1A9DE014004CD51E /* SystemConfiguration.framework */; };
+		A1E33EAD1A93587400BC2EEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E33EAC1A93587400BC2EEE /* main.m */; };
+		A1E33EB01A93587400BC2EEE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E33EAF1A93587400BC2EEE /* AppDelegate.m */; };
+		A1E33EB31A93587400BC2EEE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1E33EB21A93587400BC2EEE /* ViewController.m */; };
+		A1E33EB61A93587400BC2EEE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1E33EB41A93587400BC2EEE /* Main.storyboard */; };
+		A1E33EB81A93587400BC2EEE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E33EB71A93587400BC2EEE /* Images.xcassets */; };
+		A1E33EBB1A93587400BC2EEE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1E33EB91A93587400BC2EEE /* LaunchScreen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1C4B8171A93717C00AE302B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E33E9F1A93587400BC2EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C4B8141A93717C00AE302B;
+			remoteInfo = "AppleWatchExamples WatchKit App";
+		};
+		A1C4B8211A93717C00AE302B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1E33E9F1A93587400BC2EEE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1C4B8091A93717C00AE302B;
+			remoteInfo = "AppleWatchExamples WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1C4B82A1A93717C00AE302B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1C4B8231A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4B84E1A938F5600AE302B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		951902CF1AA4AD3800929BB1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		A139100C1AA7623100C33F49 /* EstimoteSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EstimoteSDK.framework; path = EstimoteSDK/EstimoteSDK.framework; sourceTree = "<group>"; };
+		A14C04E21A94B8EA008BD0CF /* AppleWatchExamples.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = AppleWatchExamples.entitlements; sourceTree = "<group>"; };
+		A14C04E31A94BA03008BD0CF /* AppleWatchExamples WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "AppleWatchExamples WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A17399851A9DDFC5004CD51E /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		A17399881A9DDFE4004CD51E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A173998A1A9DE014004CD51E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A1C4B80A1A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SNEAKER SEEKER WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4B80D1A93717C00AE302B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C4B80E1A93717C00AE302B /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		A1C4B80F1A93717C00AE302B /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		A1C4B8111A93717C00AE302B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1C4B8151A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNEAKER SEEKER WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1C4B81B1A93717C00AE302B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1C4B81D1A93717C00AE302B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		A1C4B81F1A93717C00AE302B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1E33EA71A93587400BC2EEE /* SNEAKER SEEKER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SNEAKER SEEKER.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1E33EAB1A93587400BC2EEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1E33EAC1A93587400BC2EEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A1E33EAE1A93587400BC2EEE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A1E33EAF1A93587400BC2EEE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A1E33EB11A93587400BC2EEE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A1E33EB21A93587400BC2EEE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A1E33EB51A93587400BC2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1E33EB71A93587400BC2EEE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A1E33EBA1A93587400BC2EEE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1C4B8071A93717C00AE302B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E1B68C1A9F36C800264771 /* SystemConfiguration.framework in Frameworks */,
+				A139100E1AA7623100C33F49 /* EstimoteSDK.framework in Frameworks */,
+				A1E1B68B1A9F36BA00264771 /* CoreLocation.framework in Frameworks */,
+				A1E1B68A1A9F36B300264771 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E33EA41A93587400BC2EEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A173998B1A9DE014004CD51E /* SystemConfiguration.framework in Frameworks */,
+				A139100D1AA7623100C33F49 /* EstimoteSDK.framework in Frameworks */,
+				A17399891A9DDFE4004CD51E /* CoreLocation.framework in Frameworks */,
+				A17399861A9DDFC5004CD51E /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17399871A9DDFD0004CD51E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A139100C1AA7623100C33F49 /* EstimoteSDK.framework */,
+				A173998A1A9DE014004CD51E /* SystemConfiguration.framework */,
+				A17399881A9DDFE4004CD51E /* CoreLocation.framework */,
+				A17399851A9DDFC5004CD51E /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1C4B80B1A93717C00AE302B /* AppleWatchExamples WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A14C04E31A94BA03008BD0CF /* AppleWatchExamples WatchKit Extension.entitlements */,
+				A1C4B80E1A93717C00AE302B /* InterfaceController.h */,
+				A1C4B80F1A93717C00AE302B /* InterfaceController.m */,
+				A1C4B8111A93717C00AE302B /* Images.xcassets */,
+				A1C4B80C1A93717C00AE302B /* Supporting Files */,
+			);
+			path = "AppleWatchExamples WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		A1C4B80C1A93717C00AE302B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4B80D1A93717C00AE302B /* Info.plist */,
+				951902CF1AA4AD3800929BB1 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1C4B8191A93717C00AE302B /* AppleWatchExamples WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4B81C1A93717C00AE302B /* Interface.storyboard */,
+				A1C4B81F1A93717C00AE302B /* Images.xcassets */,
+				A1C4B81A1A93717C00AE302B /* Supporting Files */,
+			);
+			path = "AppleWatchExamples WatchKit App";
+			sourceTree = "<group>";
+		};
+		A1C4B81A1A93717C00AE302B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1C4B81B1A93717C00AE302B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A1E33E9E1A93587400BC2EEE = {
+			isa = PBXGroup;
+			children = (
+				A1E33EA91A93587400BC2EEE /* AppleWatchExamples */,
+				A1C4B80B1A93717C00AE302B /* AppleWatchExamples WatchKit Extension */,
+				A1C4B8191A93717C00AE302B /* AppleWatchExamples WatchKit App */,
+				A17399871A9DDFD0004CD51E /* Frameworks */,
+				A1E33EA81A93587400BC2EEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1E33EA81A93587400BC2EEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1E33EA71A93587400BC2EEE /* SNEAKER SEEKER.app */,
+				A1C4B80A1A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex */,
+				A1C4B8151A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1E33EA91A93587400BC2EEE /* AppleWatchExamples */ = {
+			isa = PBXGroup;
+			children = (
+				A14C04E21A94B8EA008BD0CF /* AppleWatchExamples.entitlements */,
+				A1E33EAE1A93587400BC2EEE /* AppDelegate.h */,
+				A1E33EAF1A93587400BC2EEE /* AppDelegate.m */,
+				A1E33EB11A93587400BC2EEE /* ViewController.h */,
+				A1E33EB21A93587400BC2EEE /* ViewController.m */,
+				A1E33EB41A93587400BC2EEE /* Main.storyboard */,
+				A1E33EB91A93587400BC2EEE /* LaunchScreen.xib */,
+				A1E33EB71A93587400BC2EEE /* Images.xcassets */,
+				A1E33EAA1A93587400BC2EEE /* Supporting Files */,
+			);
+			path = AppleWatchExamples;
+			sourceTree = "<group>";
+		};
+		A1E33EAA1A93587400BC2EEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1E33EAB1A93587400BC2EEE /* Info.plist */,
+				A1E33EAC1A93587400BC2EEE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1C4B8091A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4B8291A93717C00AE302B /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER WatchKit Extension" */;
+			buildPhases = (
+				A1C4B8061A93717C00AE302B /* Sources */,
+				A1C4B8071A93717C00AE302B /* Frameworks */,
+				A1C4B8081A93717C00AE302B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C4B8181A93717C00AE302B /* PBXTargetDependency */,
+			);
+			name = "SNEAKER SEEKER WatchKit Extension";
+			productName = "AppleWatchExamples WatchKit Extension";
+			productReference = A1C4B80A1A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		A1C4B8141A93717C00AE302B /* SNEAKER SEEKER WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1C4B8281A93717C00AE302B /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER WatchKit App" */;
+			buildPhases = (
+				A1C4B8131A93717C00AE302B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SNEAKER SEEKER WatchKit App";
+			productName = "AppleWatchExamples WatchKit App";
+			productReference = A1C4B8151A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+		A1E33EA61A93587400BC2EEE /* SNEAKER SEEKER */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1E33ECA1A93587400BC2EEE /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER" */;
+			buildPhases = (
+				A1E33EA31A93587400BC2EEE /* Sources */,
+				A1E33EA41A93587400BC2EEE /* Frameworks */,
+				A1E33EA51A93587400BC2EEE /* Resources */,
+				A1C4B82A1A93717C00AE302B /* Embed App Extensions */,
+				A1C4B84E1A938F5600AE302B /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1C4B8221A93717C00AE302B /* PBXTargetDependency */,
+			);
+			name = "SNEAKER SEEKER";
+			productName = AppleWatchExamples;
+			productReference = A1E33EA71A93587400BC2EEE /* SNEAKER SEEKER.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1E33E9F1A93587400BC2EEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Estimote, Inc.";
+				TargetAttributes = {
+					A1C4B8091A93717C00AE302B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AR5P24RW9V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					A1C4B8141A93717C00AE302B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = AR5P24RW9V;
+					};
+					A1E33EA61A93587400BC2EEE = {
+						CreatedOnToolsVersion = 6.1.1;
+						DevelopmentTeam = AR5P24RW9V;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = A1E33EA21A93587400BC2EEE /* Build configuration list for PBXProject "SNEAKER SEEKER" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1E33E9E1A93587400BC2EEE;
+			productRefGroup = A1E33EA81A93587400BC2EEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1E33EA61A93587400BC2EEE /* SNEAKER SEEKER */,
+				A1C4B8091A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension */,
+				A1C4B8141A93717C00AE302B /* SNEAKER SEEKER WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1C4B8081A93717C00AE302B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4B8161A93717C00AE302B /* SNEAKER SEEKER WatchKit App.app in Resources */,
+				A1C4B8121A93717C00AE302B /* Images.xcassets in Resources */,
+				951902D01AA4AD3800929BB1 /* PushNotificationPayload.apns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C4B8131A93717C00AE302B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4B81E1A93717C00AE302B /* Interface.storyboard in Resources */,
+				A1C4B8201A93717C00AE302B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E33EA51A93587400BC2EEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E33EB61A93587400BC2EEE /* Main.storyboard in Resources */,
+				A1E33EBB1A93587400BC2EEE /* LaunchScreen.xib in Resources */,
+				A1E33EB81A93587400BC2EEE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1C4B8061A93717C00AE302B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1C4B8101A93717C00AE302B /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1E33EA31A93587400BC2EEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1E33EB31A93587400BC2EEE /* ViewController.m in Sources */,
+				A1E33EB01A93587400BC2EEE /* AppDelegate.m in Sources */,
+				A1E33EAD1A93587400BC2EEE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1C4B8181A93717C00AE302B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C4B8141A93717C00AE302B /* SNEAKER SEEKER WatchKit App */;
+			targetProxy = A1C4B8171A93717C00AE302B /* PBXContainerItemProxy */;
+		};
+		A1C4B8221A93717C00AE302B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1C4B8091A93717C00AE302B /* SNEAKER SEEKER WatchKit Extension */;
+			targetProxy = A1C4B8211A93717C00AE302B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1C4B81C1A93717C00AE302B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1C4B81D1A93717C00AE302B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E33EB41A93587400BC2EEE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E33EB51A93587400BC2EEE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1E33EB91A93587400BC2EEE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1E33EBA1A93587400BC2EEE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1C4B8241A93717C00AE302B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AppleWatchExamples WatchKit Extension/AppleWatchExamples WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppleWatchExamples WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)/ExamplesKit",
+				);
+				PRODUCT_NAME = "SNEAKER SEEKER WatchKit Extension";
+				PROVISIONING_PROFILE = "3b854cab-50df-48ba-848d-de37a78c1238";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A1C4B8251A93717C00AE302B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "AppleWatchExamples WatchKit Extension/AppleWatchExamples WatchKit Extension.entitlements";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				INFOPLIST_FILE = "AppleWatchExamples WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+					"$(PROJECT_DIR)/ExamplesKit",
+				);
+				PRODUCT_NAME = "SNEAKER SEEKER WatchKit Extension";
+				PROVISIONING_PROFILE = "3b854cab-50df-48ba-848d-de37a78c1238";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A1C4B8261A93717C00AE302B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AppleWatchExamples_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchExamples WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "SNEAKER SEEKER WatchKit App";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		A1C4B8271A93717C00AE302B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = AppleWatchExamples_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchExamples WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "SNEAKER SEEKER WatchKit App";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		A1E33EC81A93587400BC2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A1E33EC91A93587400BC2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1E33ECB1A93587400BC2EEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleWatchExamples/AppleWatchExamples.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				INFOPLIST_FILE = AppleWatchExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				PRODUCT_NAME = "SNEAKER SEEKER";
+				PROVISIONING_PROFILE = "984e509c-8bad-4c63-be1f-41a671c956be";
+			};
+			name = Debug;
+		};
+		A1E33ECC1A93587400BC2EEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AppleWatchExamples/AppleWatchExamples.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				INFOPLIST_FILE = AppleWatchExamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/EstimoteSDK",
+				);
+				PRODUCT_NAME = "SNEAKER SEEKER";
+				PROVISIONING_PROFILE = "984e509c-8bad-4c63-be1f-41a671c956be";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1C4B8281A93717C00AE302B /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4B8261A93717C00AE302B /* Debug */,
+				A1C4B8271A93717C00AE302B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1C4B8291A93717C00AE302B /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1C4B8241A93717C00AE302B /* Debug */,
+				A1C4B8251A93717C00AE302B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E33EA21A93587400BC2EEE /* Build configuration list for PBXProject "SNEAKER SEEKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E33EC81A93587400BC2EEE /* Debug */,
+				A1E33EC91A93587400BC2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1E33ECA1A93587400BC2EEE /* Build configuration list for PBXNativeTarget "SNEAKER SEEKER" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1E33ECB1A93587400BC2EEE /* Debug */,
+				A1E33ECC1A93587400BC2EEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1E33E9F1A93587400BC2EEE /* Project object */;
+}

@@ -1,0 +1,14 @@
+{
+    "aps":
+    {
+        "alert": "Play hot or cold, find the sneaker and get 30% OFF",
+        "title": "Red hot offer",
+        "category": "Notification"
+    },
+    
+    "WatchKit Simulator Actions":
+    [{
+        "title": "START THE GAME",
+        "identifier": "firstButtonAction"
+    }]
+}
