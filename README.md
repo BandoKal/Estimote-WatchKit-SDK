@@ -4,13 +4,12 @@ Estimote WatchKit SDK is a set of tools and examples to make building Apple Watc
 
 **Table of Contents**
 
-- [Estimote WatchKit SDK](#)
-	- [What's included?](#)
-		- [ESTNotificationTransporter](#)
-		- [Nearables Simulator](#)
-	- [How to get started?](#)
-	- [Coming next...](#)
-	- [Let us know your thoughts](#)
+- [What's included?](#whats-included)
+	- [ESTNotificationTransporter](#estnotificationtransporter)
+	- [Nearables Simulator](#nearables-simulator)
+- [How to get started?](#how-to-get-started)
+- [Coming next...](#coming-next)
+- [Let us know your thoughts](#let-us-know-your-thoughts)
 
 ## What's included?
 
@@ -157,4 +156,4 @@ Finally, once you’re past the development and testing stages, and ready to go 
 
 ## Let us know your thoughts
 
-Head to [forums.estimote.com](https://forums.estimote.com) and dicuss!
+Head to [forums.estimote.com](https://forums.estimote.com) and discuss!
