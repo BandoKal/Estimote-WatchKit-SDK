@@ -12,20 +12,24 @@
 	<dict>
 		<key>C29375663BF51E7C4A8D806B0461224810806FA2</key>
 		<string>https://github.com/Estimote/apple-watch-examples.git</string>
+		<key>F902D74408B35C2A0B5896B51C2F831830199E8F</key>
+		<string>https://github.com/Estimote/Estimote-WatchKit-SDK.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>SNEAKER SEEKER.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C29375663BF51E7C4A8D806B0461224810806FA2</key>
+		<string>../../../apple-watch-examples</string>
+		<key>F902D74408B35C2A0B5896B51C2F831830199E8F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/Estimote/apple-watch-examples.git</string>
+	<string>https://github.com/Estimote/Estimote-WatchKit-SDK.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>C29375663BF51E7C4A8D806B0461224810806FA2</string>
+	<string>F902D74408B35C2A0B5896B51C2F831830199E8F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
@@ -35,6 +39,14 @@
 			<string>C29375663BF51E7C4A8D806B0461224810806FA2</string>
 			<key>IDESourceControlWCCName</key>
 			<string>apple-watch-examples</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>F902D74408B35C2A0B5896B51C2F831830199E8F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Estimote-WatchKit-SDK</string>
 		</dict>
 	</array>
 </dict>
