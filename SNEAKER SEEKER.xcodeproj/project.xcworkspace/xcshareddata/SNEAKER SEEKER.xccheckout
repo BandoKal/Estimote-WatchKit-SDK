@@ -10,8 +10,6 @@
 	<string>SNEAKER SEEKER</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>C29375663BF51E7C4A8D806B0461224810806FA2</key>
-		<string>https://github.com/Estimote/apple-watch-examples.git</string>
 		<key>F902D74408B35C2A0B5896B51C2F831830199E8F</key>
 		<string>https://github.com/Estimote/Estimote-WatchKit-SDK.git</string>
 	</dict>
