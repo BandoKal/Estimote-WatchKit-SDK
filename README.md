@@ -5,9 +5,10 @@ Estimote WatchKit SDK is a set of tools and examples to make building Apple Watc
 **Table of Contents**
 
 - [What's included?](#whats-included)
+- [How to get started?](#how-to-get-started)
+- [Documentation](#documentation)
 	- [ESTNotificationTransporter](#estnotificationtransporter)
 	- [Nearables Simulator](#nearables-simulator)
-- [How to get started?](#how-to-get-started)
 - [Coming next...](#coming-next)
 - [Let us know your thoughts](#let-us-know-your-thoughts)
 
@@ -20,6 +21,25 @@ First, there's a **special build¹ of the [Estimote SDK 3.0 beta](https://github
 And then, we prepared **a Sneaker Seeker demo app**, which shows how to use all of the new additions to build a nearables-powered Apple Watch app.
 
 *¹ The ESTSimulatedNearableManager and ESTNotificationTransporter are coming to the [3.0.0-beta branch of the Estimote SDK](https://github.com/Estimote/iOS-SDK/tree/3.0.0-beta) later this week. For now, please use the EstimoteSDK.framework included in the Estimote-WatchKit-SDK repo.*
+
+## How to get started?
+
+For the WatchKit extension and the iOS app to communicate, you need to set up an App Group — a shared container where two separate processes can exchange data.
+
+Download the Estimote-WatchKit-SDK, open up the "SNEAKER SEEKER" Xcode project and then:
+
+1. Click on the "SNEAKER SEEKER" top-level item in the Project Navigator, on the left side.
+2. On the General tab, change the Bundle Identifier to your own, e.g. "com.doe.john.sneakerSeeker".
+3. On the Capabilities tab, in the App Groups section, un-check the default "group.com.estimote.appleWatchExamples" and add your own instead, e.g. "group.com.doe.john.sneakerSeeker".
+4. In the "TARGETS" section on the left, select "SNEAKER SEEKER WatchKit Extension" and on the General tab, adjust the Bundle Identifier to match the one from step 2 ("com.doe.john.sneakerSeeker.**watchkitextension**").
+5. Find the "AppleWatchExamples.entitlements" in the Project Navigator and change the value of the "Item 0" key to your App Group ("group.com.doe.john.sneakerSeeker").
+6. Repeat step 5 for "AppleWatchExamples WatchKit Extension.entitlements".
+7. In the "ViewController.m" file, change the parameter of the `setAppGroupIdentifier` method call to your App Group ("group.com.doe.john.sneakerSeeker").
+8. Repeat step 7 for "InterfaceController.m" file.
+
+Now you're ready to run the demo!
+
+## Documentation
 
 ### ESTNotificationTransporter
 
@@ -141,14 +161,6 @@ Monitoring works, too!
     }
 
 Finally, once you’re past the development and testing stages, and ready to go live, all it takes is to replace the ESTSimulatedNearableManager with a regular ESTNearableManager. You’ll also need to remove any simulator-only methods from your code.
-
-## How to get started?
-
- 1. Download the Estimote WatchKit SDK.
- 2. Play around with the Sneaker Seeker demo app.
- 3. Copy the EstimoteSDK.framework to your own project.
- 4. Set up the App Group capability.
- 5. You can now start using ESTNotificationTransporter and ESTSimulatedNearableManager.
 
 ## Coming next...
 
