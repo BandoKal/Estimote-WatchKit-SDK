@@ -17,8 +17,6 @@
 	<string>SNEAKER SEEKER.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>C29375663BF51E7C4A8D806B0461224810806FA2</key>
-		<string>../../../apple-watch-examples</string>
 		<key>F902D74408B35C2A0B5896B51C2F831830199E8F</key>
 		<string>../..</string>
 	</dict>
@@ -30,14 +28,6 @@
 	<string>F902D74408B35C2A0B5896B51C2F831830199E8F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
-		<dict>
-			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
-			<string>public.vcs.git</string>
-			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>C29375663BF51E7C4A8D806B0461224810806FA2</string>
-			<key>IDESourceControlWCCName</key>
-			<string>apple-watch-examples</string>
-		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

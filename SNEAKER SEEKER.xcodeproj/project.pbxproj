@@ -445,7 +445,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EstimoteSDK",
-					"$(PROJECT_DIR)/ExamplesKit",
 				);
 				PRODUCT_NAME = "SNEAKER SEEKER WatchKit Extension";
 				PROVISIONING_PROFILE = "3b854cab-50df-48ba-848d-de37a78c1238";
@@ -470,7 +469,6 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/EstimoteSDK",
-					"$(PROJECT_DIR)/ExamplesKit",
 				);
 				PRODUCT_NAME = "SNEAKER SEEKER WatchKit Extension";
 				PROVISIONING_PROFILE = "3b854cab-50df-48ba-848d-de37a78c1238";
